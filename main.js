@@ -192,4 +192,13 @@ let nun ;
 nun = 75;
 if (nun >= 95){
     console.log("Grade A");
-}else if 
+
+}else if (nun >=85) {
+    console.log("Grade B");
+
+}else if (nun >=75){
+    console.log("Grade C");
+
+}else {
+    console.log("You have failed");
+}
