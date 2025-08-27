@@ -187,3 +187,9 @@ if (value === 10){
 if (val !== "20"){
     console.log("True, they are not equal");
 }
+//more than two conditions
+let nun ;
+nun = 75;
+if (nun >= 95){
+    console.log("Grade A");
+}else if 
