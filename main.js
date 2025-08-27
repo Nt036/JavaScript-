@@ -102,13 +102,88 @@ let fruits = ["mango","orange" ,"apple","guava","cherry","ovacado"];
 console.log(fruits);
 let domesticanimals =["cow","goat","sheep","rabbit",];
 console.log(domesticanimals);
+//Mixed array
+let mixedarray = [1,"June",true,null];
+console.log(mixedarray);
+
 
 //Concatenation(joining variables)
-let surName = "Smith";
-let givenName = "Ssemwanga";
+//let surName = "Smith";
+//let givenName = "Ssemwanga";
+//const fullName = surName + " " + givenName ;
+//console.log(fullName);
+//let firstName = "Mark";
+//let lastName = "Doe";
+//const nameStatement = "His name is " + " " + firstName + " " + lastName;
+//console.log(nameStatement) 
+let surName = "Jane";
+let givenName = "Kimuli";
 const fullName = surName + " " + givenName ;
+const nameStatement = "Her name is" + " " + surName + " " + givenName ;
 console.log(fullName);
-let firstName = "Mark";
-let lastName = "Doe";
-const nameStatement = "His name is " + " " + firstName + " " + lastName;
-console.log(nameStatement) 
+console.log(nameStatement);
+
+//Operators
+//arithmetic operators(they let us do math with numbers whether they are variables literals or expressions)
+//Basic Operators
+//Addition(+),Subtraction(-),multiplication(*),division(/),modulus(%),increment(++), decrement(--),exponentiation(**)
+//Addition(adds numbers together , using (+))
+let t = 5 + 2;
+console.log(t);
+
+//Subtraction(subtract numbers from each other, using (-))
+let r = 5 - 2;
+console.log(r);
+
+//Multiplication(scales numbers , using(*))
+let j = 5 * 2;
+console.log(j);
+
+//Division(splits numbers into equal parts , using(/))
+let w = 5 / 2;
+console.log(w);
+
+//Modulus(finds the remainder after division , using(%))
+//Useful for checking even or odd numbers.
+//Widely used in gaming logic and loop conditions.
+let q = 5 % 2;
+console.log(q);
+
+//Increment(increases a number by 1 , using(++))
+//Great for counters and loops.
+let h = 5;
+console.log(h);
+
+//Decrement(decreases a number by 1 , using(--))
+let m = 5;
+console.log(m);
+
+//exponentiation(raise a number by a power , using(**))
+let g = 5**2;
+console.log(g);
+
+//Parentheses() overrides Precedence
+let v = (100+50)*3;
+console.log(v);
+
+//CONDITIONAL STATEMENTS
+let mark ;
+mark = 50;
+//let condition = mark > 50;
+//If (condition)
+if (score => 50) {
+    //code to be executed if condition is true
+    console.log("You Passed");
+} else {
+    //code to be executed if condition is false    
+}
+//Comparison Operators
+//Equal to (==) and strict Equal to (===)
+let value ;
+value = "10"
+if (value === 10){
+    console.log("True,they are equal"); //this will not execute
+}
+if (val !== "20"){
+    console.log("True, they are not equal");
+}
