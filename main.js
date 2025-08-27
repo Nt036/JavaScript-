@@ -184,7 +184,7 @@ value = "10"
 if (value === 10){
     console.log("True,they are equal"); //this will not execute
 }
-if (val !== "20"){
+if (value !== "20"){
     console.log("True, they are not equal");
 }
 //more than two conditions
@@ -202,3 +202,77 @@ if (nun >= 95){
 }else {
     console.log("You have failed");
 }
+//Functions
+//Function Declarations
+function functionName(paramas){
+    console.log("This is a function declaration");
+}
+
+//Call a function
+functionName();
+
+//Function with parameters
+function greet(name,age) {
+    console.log("Hello , my name is" + name + "and Iam" + age + "years old.");
+}
+
+greet("Brenda", 11);
+greet("Jane" , 22);
+greet("Isma");
+
+//Functions with return valu
+function add(a,b) {
+    return a+b
+}
+console.log(add(2,3));
+console.log(add(378,678));
+console.log(add(99,7));
+
+//Arrow Function
+const multiply = function (x,y) {
+    return x*y;
+}
+//or using ES6 arrow function syntax
+const arrowfunc = () => {
+    console.log("This is an arrow function");
+}
+
+const multiplyArrow = (x,y) => x*y;
+
+console.log(multiply(3,4));
+console.log("This is the result of arrow function: " + multiplyArrow(3,4));
+
+//Arrow function with multiple lines
+const complexFunc = (a,b) => {
+    let sum = a+b;
+    let product = a*b;
+    let diff = a-b;
+    return { sum:sum , product, difference:diff};
+}
+console.log(complexFunc(5,6));
+
+
+//Loops
+//For loop
+const colors = ["Red" , "Green" , "Blue" , "Yellow"]
+console.log(colors);
+
+//Methods under arrays ie Push, Pop, Shift, Unshift, Length, LengthOf, Includes, Slice, Join, Concat
+//Length
+console.log(colors.length)  //4
+console.log(colors[1])  //Green
+console.log(colors[3])  //Yellow
+
+//Push
+colors.push ("purple");
+console.log(colors);  //["Red", "Green", "Blue", "Yellow"]
+
+//Push
+//colors.push ("purple");
+
+
+//Using a loop to iterate through an array
+for (let i = 0; i < colors.length; i++){
+    console.log("This is from the loop" , colors);
+}
+
