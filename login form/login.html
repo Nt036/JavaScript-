@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="login.css"
+</head>
+<body>
+<div class="mother">
+    <h2>Register</h2>
+<!--for starts here!-->
+<form id="registerform">
+    <!--full name input field-->
+    <input type="text" id="fullName" placeholder="Fill in your Name" required/>
+    <!--email input field-->
+    <input type="email" id="email" placeholder="Fill in your Email" required/>
+    <!--username input field-->
+    <input type="text" id="username" placeholder=" Fill in your Username" required/>
+
+
+    <!--password field div-->
+    <div class="password-field">
+    <!--password input field-->
+    <input type="text" id="password" placeholder="Fill in your Password" required/>
+    <span onclick="togglePassword('password')">👁</span>
+
+    <!--confirm password input field-->
+    <input type="text" id="confirm password" placeholder="Please confirm Password" required/>
+    <span onclick="togglePassword('confirmpassword')">👁</span>
+
+    </div>
+    
+    <p class="error" id="errorMsg"></p>
+    <button type="submit">Submit</button>
+
+
+</form>
+</div>
+
+
+<script src="login.js">
+
+</script>   
+</body>
+</html>

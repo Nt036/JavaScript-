@@ -17,3 +17,5 @@ myheading.innerHTML = "Hello!, my name is EMPRESS!";
 
 //Changing paragraph content
 paragraph.textContent = "This is also changed in Js."
+
+//28th/08/2025
